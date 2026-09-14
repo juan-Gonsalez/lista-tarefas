@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main>
+      <h1>Lista de tarefas ✅</h1>
+
+      <div class="container create">
+        <h3>Criar tarefa</h3>
+        <form class="form" action="#" method="post">
+          <label for="task">
+            Tarefa:
+            <input name="task" type="text" placeholder="Digite o nome da tarefa ..." />
+        </label>
+          <button class="btn" type="submit">Adicionar tarefa</button>
+        </form>
+      </div>
+
+      <div class="container new-tasks">
+        <div class="scroll">
+          <h3>Tarefas a fazer</h3>
+          <ul class="new task-list"></ul>
+        </div>
+      </div>
+
+      <div class="container completed-tasks">
+        <div class="scroll">
+          <h3>Tarefas completas</h3>
+          <ul class="completed task-list"></ul>
+        </div>
+        
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
