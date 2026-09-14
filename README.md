@@ -1,4 +1,4 @@
-Lista de Tarefas / Task Manager
+## Lista de Tarefas / Task Manager
 
 Projeto interativo para gerenciamento de tarefas, desenvolvido ao final do curso de JavaScript para praticar manipulação do DOM e estilização responsiva.
 
@@ -25,10 +25,8 @@ Projeto interativo para gerenciamento de tarefas, desenvolvido ao final do curso
 
 Clone o repositório:
    ```bash
-   git clone [https://github.com/juan-Gonsalez/lista-tarefas.git](https://github.com/juan-Gonsalez/lista-tarefas.git)
-```
+   git clone https://github.com/juan-Gonsalez/lista-tarefas.git
+   ```
 
-Acesse na web
-  ```bash
+Acesse na web: 
   [Acessar a Lista de Tarefas na Web](https://juan-gonsalez.github.io/lista-tarefas/)
-```
